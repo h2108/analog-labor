@@ -1,0 +1,19 @@
+{
+  "name": "analog-labor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h2108/analog-labor.git"
+  },
+  "author": "Henrik Hentschel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h2108/analog-labor/issues"
+  },
+  "homepage": "https://github.com/h2108/analog-labor#readme"
+}
