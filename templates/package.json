@@ -18,5 +18,8 @@
   "homepage": "https://github.com/h2108/analog-labor#readme",
   "devDependencies": {
     "node-sass": "^4.9.3"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }
