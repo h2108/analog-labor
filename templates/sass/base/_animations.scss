@@ -1,0 +1,67 @@
+@keyframes polygonMove {
+    20% {
+        clip-path: polygon(10% 10%, 80% 30%, 95% 80%, 0% 95%);
+        background: pink;
+    }
+    40% {
+        clip-path: polygon(20% 20%, 35% 20%, 100% 50%, 0% 100%);
+        background: #b83131;
+    }
+    60% {
+        clip-path: polygon(50% 10%, 85% 85%, 75% 100%, 20% 20%);
+        background: blue;
+    }
+    80% {
+        clip-path: polygon(55% 30%, 100% 50%, 70% 100%, 0% 0%);
+        background: rgb(21, 84, 199);
+    }
+    100% {
+        clip-path: polygon(25% 25%, 80% 0%, 100% 100%, 0% 100%);
+        background: rgb(100, 237, 180);
+    }
+}
+
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
