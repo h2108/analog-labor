@@ -7,8 +7,8 @@
         url(../img/hero.jpg);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-    animation: polygonMove 20s alternate infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    //animation: polygonMove 20s alternate infinite;
     position: relative;
 
     &__logo-box {
